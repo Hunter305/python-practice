@@ -25,3 +25,15 @@ print(filter(check_even, lis))
 
 # to get a list
 print(list(filter(check_even, lis)))
+
+# lambda expression which is similar to annonymous function consider the square function
+# syntax
+
+# lambda num : num**2
+
+# map list with square
+print(list(map(lambda num: num**2, lis)))
+
+# filtering even numbers
+
+print(list(filter(lambda num: num % 2 == 0, lis)))
